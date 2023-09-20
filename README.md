@@ -33,12 +33,13 @@
 
 Отправляет данные в Kafka. Пример JSON:
 
-`{
+```json{
   "sensorId": 1,
   "timestamp": "2023-09-12T12:10:05",
   "measurement": 15.5,
   "measurementType": "TEMPERATURE"
-}`
+}
+```
 
 
 ### POST /api/v1/data/test/send
@@ -46,12 +47,13 @@
 
 Отправляет тестовые данные в Kafka через некоторый интервал времени. Пример JSON:
 
-`{
+```json{
   "delayInSeconds": 3,
   "measurementTypes": [
     "POWER",
     "VOLTAGE",
     "TEMPERATURE"
   ]
-}`
+}
+```
 
