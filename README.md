@@ -8,7 +8,7 @@
 Перед запуском приложения убедитесь, что вы создали файл .env со следующими переменными:
 
 
-`KAFKA_BOOTSTRAP_SERVERS=<адрес сервера Kafka>`
+`KAFKA_BOOTSTRAP_SERVERS=localhost:9092`
 
 
 ## Запуск приложения
